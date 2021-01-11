@@ -352,7 +352,6 @@ img.menu-icon-img{
 
 .nav-header label.toggle-menu{
 	display: none;
-	padding: 0px 0px 15px;
 	cursor: pointer;	
 }
 
@@ -421,8 +420,8 @@ iframe.maps{
 	text-decoration: underline;
 }
 ul.menu{
-	padding-top: 45px;
-	display: none;		
+	display: none;	
+	padding-top: 10px;	
 }
 ul.menu li{
 	padding: 5px 0;
@@ -436,9 +435,13 @@ input.toggle-menu:checked + ul.menu{
 .search-menu {
 		justify-content: space-around !important;
 	}
-
+	.search{
+		padding-top: 0 !important;
+	}
+.search .submit {
+    top: 0px !important;
 }
-
+}
 @media (max-width: 720px){
 	.search-menu {
 		align-items: center;
