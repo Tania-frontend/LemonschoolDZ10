@@ -389,6 +389,7 @@ img.logo {
 }
 img.user {
 	max-width: 35px;
+	margin-right: 0;
 }
 a.login-name{
 	display: none;
